@@ -1,0 +1,66 @@
+================================================================================
+SEVIR Causal Discovery Report (Strict Filtering)
+================================================================================
+
+Detailed Causal Relationships:
+--------------------------------------------------------------------------------
+
+Target: sevir_vil
+  <- sevir_ir107          (delay= 0 steps, strength=1.9469e+16)
+  <- era5_cape            (delay= 0 steps, strength=2.6407e+15)
+  <- era5_cin             (delay= 0 steps, strength=6.4071e+14)
+
+Target: sevir_ir107
+  <- era5_t2m             (delay= 0 steps, strength=9.7985e+14)
+  <- era5_cape            (delay= 0 steps, strength=5.4703e+14)
+  <- era5_cin             (delay= 0 steps, strength=6.2957e+13)
+
+Target: sevir_lght
+  <- sevir_vil            (delay= 0 steps, strength=2.7955e+18)
+  <- era5_cape            (delay= 0 steps, strength=6.1063e+17)
+  <- era5_cin             (delay= 0 steps, strength=2.8764e+17)
+
+Target: era5_cape
+  No significant causal influences detected.
+
+Target: era5_cin
+  <- era5_cape            (delay= 0 steps, strength=2.2582e+15)
+
+Target: era5_t2m
+  <- sevir_vil            (delay= 1 steps, strength=3.3609e+13)
+  <- era5_cape            (delay= 0 steps, strength=2.8226e+13)
+  <- era5_cin             (delay= 1 steps, strength=1.5201e+13)
+
+================================================================================
+Statistics:
+--------------------------------------------------------------------------------
+Total variables: 6
+Total causal edges: 13
+Average edges per variable: 2.17
+
+Delay Distribution:
+  Min delay: 0 steps
+  Max delay: 1 steps
+  Avg delay: 0.15 steps
+
+Variable Influence Ranking:
+  era5_cape           : causes 5 variable(s)
+  era5_cin            : causes 4 variable(s)
+  sevir_vil           : causes 2 variable(s)
+  sevir_ir107         : causes 1 variable(s)
+  era5_t2m            : causes 1 variable(s)
+
+Top Strongest Causal Relationships:
+ 1. sevir_vil       -> sevir_lght      (delay= 0, strength=2.7955e+18)
+ 2. era5_cape       -> sevir_lght      (delay= 0, strength=6.1063e+17)
+ 3. era5_cin        -> sevir_lght      (delay= 0, strength=2.8764e+17)
+ 4. sevir_ir107     -> sevir_vil       (delay= 0, strength=1.9469e+16)
+ 5. era5_cape       -> sevir_vil       (delay= 0, strength=2.6407e+15)
+ 6. era5_cape       -> era5_cin        (delay= 0, strength=2.2582e+15)
+ 7. era5_t2m        -> sevir_ir107     (delay= 0, strength=9.7985e+14)
+ 8. era5_cin        -> sevir_vil       (delay= 0, strength=6.4071e+14)
+ 9. era5_cape       -> sevir_ir107     (delay= 0, strength=5.4703e+14)
+10. era5_cin        -> sevir_ir107     (delay= 0, strength=6.2957e+13)
+11. sevir_vil       -> era5_t2m        (delay= 1, strength=3.3609e+13)
+12. era5_cape       -> era5_t2m        (delay= 0, strength=2.8226e+13)
+13. era5_cin        -> era5_t2m        (delay= 1, strength=1.5201e+13)

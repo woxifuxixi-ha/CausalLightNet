@@ -1,0 +1,191 @@
+[
+  {
+    "file": ".gitignore",
+    "sha256": "f619482b80aa6370b97e0b40effa26c101997ef2937168b5f85248df5b2c6cd2",
+    "source_file": null,
+    "source_sha256": null,
+    "status": "new"
+  },
+  {
+    "file": "causal_encoder.py",
+    "sha256": "e6219febd349e4a93ae9fc6e9cd3a7bd2ccd99d3e580804af43351f59c9a50a3",
+    "source_file": "causal_encoder.py",
+    "source_sha256": "e6219febd349e4a93ae9fc6e9cd3a7bd2ccd99d3e580804af43351f59c9a50a3",
+    "status": "unchanged"
+  },
+  {
+    "file": "causal_prior_parser.py",
+    "sha256": "1abdeb676888eb8a46e2c61f38f1d3946e0c4f9befefd54fa2fa0534baa9d1af",
+    "source_file": "causal_prior_parser.py",
+    "source_sha256": "1abdeb676888eb8a46e2c61f38f1d3946e0c4f9befefd54fa2fa0534baa9d1af",
+    "status": "unchanged"
+  },
+  {
+    "file": "causal_report_strict.txt",
+    "sha256": "b4ec96c5025e776bba0916bad248a51e3fcdee274e4c058a677d7be36721a73b",
+    "source_file": "causal_report_strict.txt",
+    "source_sha256": "b4ec96c5025e776bba0916bad248a51e3fcdee274e4c058a677d7be36721a73b",
+    "status": "unchanged"
+  },
+  {
+    "file": "config_sevir.py",
+    "sha256": "a12e66f18425d6309f013c5dde86a872ddc3017c0561ebd70f6456e4bf0d4394",
+    "source_file": "config_sevir.py",
+    "source_sha256": "a12e66f18425d6309f013c5dde86a872ddc3017c0561ebd70f6456e4bf0d4394",
+    "status": "unchanged"
+  },
+  {
+    "file": "config_train_sevir",
+    "sha256": "b0b86d08acf5e1161b94c83cc9dd43e9cea087fd34fe31b6f8f11a8aa2fbbda1",
+    "source_file": "config_train_sevir",
+    "source_sha256": "b0b86d08acf5e1161b94c83cc9dd43e9cea087fd34fe31b6f8f11a8aa2fbbda1",
+    "status": "unchanged"
+  },
+  {
+    "file": "docs/ENVIRONMENT.md",
+    "sha256": "8cdc123061e36deaa9646211092514f8bfea4e5baaef7d3d5c93b8e9c07927f7",
+    "source_file": null,
+    "source_sha256": null,
+    "status": "new"
+  },
+  {
+    "file": "docs/EVALUATION.md",
+    "sha256": "f4d5f52a65b1e8b9396be321acee2bcfed60ebe32f22a667415977dfef18e8bd",
+    "source_file": null,
+    "source_sha256": null,
+    "status": "new"
+  },
+  {
+    "file": "docs/RELEASE_NOTES.md",
+    "sha256": "70146a11db4a3595a0f881f83c64a1310c675f057dd1adeeff8bc7d72396b400",
+    "source_file": null,
+    "source_sha256": null,
+    "status": "new"
+  },
+  {
+    "file": "docs/TRAINING.md",
+    "sha256": "a8b7b2bfc67247f6c65429a299f0b33b2b3f23d33c8ac4f7e54861c190579e18",
+    "source_file": null,
+    "source_sha256": null,
+    "status": "new"
+  },
+  {
+    "file": "evaluate_density_ablation.py",
+    "sha256": "837e98c7428ccf3d75ad6b055bab736f5ff3f258a03180ee12d1539c015d31ac",
+    "source_file": "evaluate_density_ablation.py",
+    "source_sha256": "9ab0e1f3e3019f02c1feb8b194e05b910249526f29f3b20ad8307c997cc5e753",
+    "status": "adapted"
+  },
+  {
+    "file": "evaluate_leadtime_ablation.py",
+    "sha256": "703e78836a47faedc405383835de36aab51908ef082259b37ce0d8d78600b6ee",
+    "source_file": "evaluate_leadtime_ablation.py",
+    "source_sha256": "703e78836a47faedc405383835de36aab51908ef082259b37ce0d8d78600b6ee",
+    "status": "unchanged"
+  },
+  {
+    "file": "fit_density_boundaries.py",
+    "sha256": "d7502ba75e3731785a4d3a1acbbe4b21a155b17ce5685b2bd97d6bcb52f1fd57",
+    "source_file": null,
+    "source_sha256": null,
+    "status": "new"
+  },
+  {
+    "file": "layers/__init__.py",
+    "sha256": "3786971b150b01dd5bdf8a9fad7bf1b27abeb0daf4adcb641e9764036b3c9869",
+    "source_file": "layers/__init__.py",
+    "source_sha256": "3786971b150b01dd5bdf8a9fad7bf1b27abeb0daf4adcb641e9764036b3c9869",
+    "status": "unchanged"
+  },
+  {
+    "file": "layers/ConvLSTM.py",
+    "sha256": "ee9ad5fef17428014b925797cac0565f19316b8819a1f0732e4f2adaee143fd9",
+    "source_file": "layers/ConvLSTM.py",
+    "source_sha256": "ee9ad5fef17428014b925797cac0565f19316b8819a1f0732e4f2adaee143fd9",
+    "status": "unchanged"
+  },
+  {
+    "file": "layers/PositionEmbedding.py",
+    "sha256": "c92abacf2409b892909e841e78a26afc5fa318b8d84264166c980c3a9ca8db41",
+    "source_file": "layers/PositionEmbedding.py",
+    "source_sha256": "c92abacf2409b892909e841e78a26afc5fa318b8d84264166c980c3a9ca8db41",
+    "status": "unchanged"
+  },
+  {
+    "file": "layers/transformer_decoder.py",
+    "sha256": "1a905c9667040d31ff2044636496e8fb1e4cacdfc4479c831410e13b88b45b9c",
+    "source_file": "layers/transformer_decoder.py",
+    "source_sha256": "1a905c9667040d31ff2044636496e8fb1e4cacdfc4479c831410e13b88b45b9c",
+    "status": "unchanged"
+  },
+  {
+    "file": "LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "source_file": "LICENSE",
+    "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "status": "unchanged"
+  },
+  {
+    "file": "main.py",
+    "sha256": "112535250bcc9ce76d8ad32cc5f30f0fa8b6ed6df2910e6c5b73e738c0ce9080",
+    "source_file": "main3.py",
+    "source_sha256": "179c6828a5c52e048ce0a6c0346c92f0251cd915c30fee644cdf6db722113645",
+    "status": "adapted"
+  },
+  {
+    "file": "README.md",
+    "sha256": "377775daa96eb8d35262e7dab6572345968c892aed0a69d1e4c22506c550dc74",
+    "source_file": "README.md",
+    "source_sha256": "4553184e8ea7563da2bcb2a5b36d0b57488a530dce944a2c5b8202010195d3ae",
+    "status": "adapted"
+  },
+  {
+    "file": "requirements.txt",
+    "sha256": "8659d9537dcce2bea626832253fdc0ce910ec407cc1c0eb44dc3f742228b8dc3",
+    "source_file": null,
+    "source_sha256": null,
+    "status": "new"
+  },
+  {
+    "file": "scores.py",
+    "sha256": "2a871a9e09ad78e77650452e7ae1d9ca53410cc124aa5f4db2a8fb1de9796c68",
+    "source_file": "scores.py",
+    "source_sha256": "2a871a9e09ad78e77650452e7ae1d9ca53410cc124aa5f4db2a8fb1de9796c68",
+    "status": "unchanged"
+  },
+  {
+    "file": "sevir_generator.py",
+    "sha256": "8c1397fd9e9b5ca40e7ba1b8441f8a3924a716a5b1b90daec0aefcae81af21d0",
+    "source_file": "sevir_generator.py",
+    "source_sha256": "8c1397fd9e9b5ca40e7ba1b8441f8a3924a716a5b1b90daec0aefcae81af21d0",
+    "status": "unchanged"
+  },
+  {
+    "file": "sevir_lightnet_plus.py",
+    "sha256": "0c649ccf972e48ba06db54a6b2468b41b4c1b63964f18bcf61d3897a3fd6b3d2",
+    "source_file": "sevir_lightnet_plus.py",
+    "source_sha256": "286a80fda7c6b3d5a72df6357555e23de12e09ef88a8a4662c7f1806eea15ec2",
+    "status": "adapted"
+  },
+  {
+    "file": "test_density_ablation.py",
+    "sha256": "6746c3d2de443a429a5c625c137de4d9701b5c009281517f40e1c9cdb9a475e3",
+    "source_file": "test_density_ablation.py",
+    "source_sha256": "6746c3d2de443a429a5c625c137de4d9701b5c009281517f40e1c9cdb9a475e3",
+    "status": "unchanged"
+  },
+  {
+    "file": "test_leadtime_ablation.py",
+    "sha256": "4548ff5bb9f6c0c23722a8e2661f89d5b3682e9a48292c10cf684786eb603cd7",
+    "source_file": "test_leadtime_ablation.py",
+    "source_sha256": "4548ff5bb9f6c0c23722a8e2661f89d5b3682e9a48292c10cf684786eb603cd7",
+    "status": "unchanged"
+  },
+  {
+    "file": "vis.py",
+    "sha256": "bc4e67284a11494ab6690f8fab68ff340bc6f23583bc7f3a48cfd1db7951cccb",
+    "source_file": "vis.py",
+    "source_sha256": "bc4e67284a11494ab6690f8fab68ff340bc6f23583bc7f3a48cfd1db7951cccb",
+    "status": "unchanged"
+  }
+]

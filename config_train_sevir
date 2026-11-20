@@ -1,0 +1,28 @@
+# 数据路径（请按本机数据位置修改；脚本也支持命令行覆盖）
+WRFFileDir=./data/SEVIR_ERA5_2018_convective_timeseries
+TruthFileDir=./data/SEVIR_ERA5_2018_convective_timeseries
+TruthFileDirGrid=./data/SEVIR_ERA5_2018_convective_timeseries
+
+# 输出路径
+ModelFileDir=./checkpoints
+RecordFileDir=./results/records
+VisResultFileDir=./results/vis_results
+
+# 空间参数
+GridRowColNum=128              # 网格大小：96, 128, 或 192
+
+# 时间参数
+ForecastHourNum=6              # 预测帧数（6帧=30分钟）
+TruthHistoryHourNum=12         # 历史帧数（12帧=1小时）
+
+# 模型参数
+NetName=LightNet_plus          # 模型名称
+WRFChannelNum=2                # VIL + IR107 = 2通道
+
+# 训练参数
+Batchsize=4                    # 批次大小（根据GPU内存调整）
+LearningRate=0.0001            # 学习率
+EpochNum=50                   # 训练轮数
+
+# 设备
+Device=cuda:0                  # 使用GPU 0（若不可用，脚本会自动回退到CPU）
